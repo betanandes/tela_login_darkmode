@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+    <title>Entrar agora</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+
+            <!-- FORM HEADER -->
+            <div id="form_header">
+                <h1>Login</h1>
+                <i id="mode_icon" class="fa-solid fa-moon"></i>
+            </div>
+
+             <!-- SOCIAL MEDIA LINKS -->
+            <div id="social_media">
+                <a href="">
+                    <img src="assets/imgs/facebook.png" alt="Facebook Logo">
+                </a>
+
+                <a href="">
+                    <img src="assets/imgs/google.png" alt="Google Logo">
+                </a>
+
+                <a href="">
+                    <img src="assets/imgs/github.png" alt="Github Logo">
+                </a>
+            </div>
+
+            <!-- INPUTS -->
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="text" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <i class="fa-solid fa-key"></i>
+                            <input type="password" id="name" name="name">
+                        </div>
+                    </label>
+
+            <!-- FORGOT PASSWORD -->
+                    <div id="forgot_password">
+                        <a href="#">
+                            Esqueceu sua senha?
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LOGIN BUTTON -->
+            <button type="submit" id="login_button">
+                Entrar
+            </button>
+        </form>
+    </main>
+    <script type="text/javascript"  src="assets/js/login.js"></script>
+</body>
+</html>
