@@ -4,8 +4,8 @@ mode.addEventListener('click', () => {
     const form = document.getElementById('login_form');
 
     if(mode.classList.contains('fa-moon')) {
-       ode.classList.remove('fa-moon');
-        mode.classList.add('fa-sun'); m
+        mode.classList.remove('fa-moon');
+        mode.classList.add('fa-sun');
 
         form.classList.add('dark')
         //tipo um else, mas sem o else
